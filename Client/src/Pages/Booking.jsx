@@ -51,7 +51,7 @@ function Booking() {
 
         try {
            
-            const response = await axios.post('http://localhost:5000/api/bookings', formData);
+            const response = await axios.post('https://travel-agency-app.onrender.com/api/bookings', formData);
 
             generateReceipt(formData, totalPrice);
             alert('Booking created successfully!');
