@@ -25,7 +25,7 @@ function Booking() {
     useEffect(() => {
         const fetchPackageDetails = async () => {
             try {
-                const response = await axios.get(`http://localhost:5000/api/packages/${id.substr(1,id.length)}`);
+                const response = await axios.get(`https://travel-agency-app.onrender.com/api/packages/${id.substr(1,id.length)}`);
                 const price = response.data.price; 
                 console.log(price);
                 setPackagePrice(price); 
