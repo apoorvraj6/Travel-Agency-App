@@ -11,7 +11,7 @@ function Package() {
 useEffect(()=>{
   const fetchPackages = async()=>{
     try{
-      const response = await axios.get('http://localhost:5000/api/packages');
+      const response = await axios.get('https://travel-agency-app.onrender.com/api/packages');
       setPackages(response.data);
     }catch(error)
     {
