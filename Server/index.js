@@ -17,6 +17,10 @@ const adminRoutes = require('./Routes/adminRoutes')
 app.use('/api',userRoutes);
 app.use('/api/admin',adminRoutes);
 
+app.listen(port,()=>{
+    console.log(`Server is running of the port ${port}`);
+});
+
 
 
 module.exports = app;
