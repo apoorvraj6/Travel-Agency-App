@@ -1,7 +1,6 @@
 # Travel Booking Website
 
-This is a full-stack travel booking website that allows users to explore and book travel packages. The website is deployed on [Vercel](https://travel-agency-69zgz48gk-apoorv-rajs-projects.vercel.app/), and it consists of both a frontend and backend component.
-
+This is a full-stack travel booking website that allows users to explore and book travel packages. 
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
@@ -100,11 +99,7 @@ Key Features:
 7. GET /api/bookings: Get all bookings.
 
 
-## Deployed Link
 
-The project is deployed and accessible here:
-
-[Travel Booking Website](https://travel-agency-69zgz48gk-apoorv-rajs-projects.vercel.app/)
 
 
 
